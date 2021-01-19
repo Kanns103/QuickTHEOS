@@ -1,7 +1,7 @@
 # What does this script do?
 Quickly installs Theos and everything you need to make a tweak.
 
-# how to use?
+# How to use?
 Copy and paste the whole script and press enter. It will do everything for you. You will be presented with 3 options. 1, download sdks. 2, Do not need sdks. 3, Make your first tweak template.
 
 # License
