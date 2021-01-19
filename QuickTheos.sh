@@ -13,8 +13,8 @@ git clone --recursive https://github.com/theos/theos.git $THEOS
 echo "Cloned THEOS"
 
 PS3='Choose an option: '
-foods=("Get SDK" "Do not need SDK" "Create tweak template")
-select fav in "${foods[@]}"; do
+option=("Get SDK" "Do not need SDK" "Create tweak template")
+select fav in "${option[@]}"; do
     case $fav in
         "Get SDK")
 curl -LO https://github.com/theos/sdks/archive/master.zip
